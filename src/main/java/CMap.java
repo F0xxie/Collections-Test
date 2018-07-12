@@ -6,7 +6,7 @@ public class CMap extends _Command {
     public void Execute() {
         cmapmenu();
 
-        Map<Integer, Integer> cmap = new HashMap<Integer, Integer>();
+        Map<Integer, Integer> cmap = new HashMap<>();
 
         while (true) {
             System.out.print(">");

@@ -6,7 +6,7 @@ public class CDeque extends _Command {
     public void Execute() {
         cdequemenu();
 
-        LinkedList<Integer> cdeque = new LinkedList<Integer>();
+        LinkedList<Integer> cdeque = new LinkedList<>();
 
         while (true) {
             System.out.print(">");

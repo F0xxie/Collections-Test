@@ -6,7 +6,7 @@ public class CSet extends _Command {
     public void Execute() {
         csetmenu();
 
-        TreeSet<Integer> cset = new TreeSet<Integer>();
+        TreeSet<Integer> cset = new TreeSet<>();
 
         while (true) {
             System.out.print(">");

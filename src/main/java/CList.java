@@ -6,7 +6,7 @@ public class CList extends _Command {
     public void Execute() {
         clistmenu();
 
-        ArrayList<Integer> clist = new ArrayList<Integer>();
+        ArrayList<Integer> clist = new ArrayList<>();
 
         while (true) {
             System.out.print(">");
